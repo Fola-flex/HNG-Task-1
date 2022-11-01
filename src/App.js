@@ -5,7 +5,7 @@ function App() {
     <div className='app'>
       <header className="profile-avatar">
         <img id="profile__img" src="profile__img.svg" alt="profile image" />
-        <img id="share_btn" src="_Avatar share button.svg" alt="share button icon" />
+        <img id="share_btn" src="Avatar share button.svg" alt="share button icon" />
         <h2>Annette Black</h2>
       </header>
       <div className="link-section">
