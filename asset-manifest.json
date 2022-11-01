@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HNG-Task-1/static/css/main.bd24afde.css",
+    "main.js": "/HNG-Task-1/static/js/main.f764d779.js",
+    "index.html": "/HNG-Task-1/index.html",
+    "main.bd24afde.css.map": "/HNG-Task-1/static/css/main.bd24afde.css.map",
+    "main.f764d779.js.map": "/HNG-Task-1/static/js/main.f764d779.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd24afde.css",
+    "static/js/main.f764d779.js"
+  ]
+}
