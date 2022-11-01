@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5%;
+    font-family: Inter;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-avatar {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-avatar #profile__img {
+    margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-avatar #share_btn {
+    position: absolute;
+    right: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.link-section {
+    margin-top: 5%;
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-section .link-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link-section .link-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1180px;
+    width: 90%;
+    padding: 24px 32px;
+    margin: 20px 0px;
+    background: #EAECF0;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+}
+
+.link-section .link-buttons button:last-child {
+    display: none;
+}
+
+.link-buttons button a {
+    color: black;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.social_links {
+    margin-top: 10px;
+    margin-bottom: 5%;
+}
+
+.social_links .wrapper {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-top: 1px solid rgb(199, 198, 198);
+    padding-top: 20px;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 460px) {
+    .profile-avatar #share_btn  {
+        right: 10%;
+    }
 }
