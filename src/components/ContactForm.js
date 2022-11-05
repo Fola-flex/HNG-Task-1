@@ -71,7 +71,7 @@ class ContactForm  extends Component {
                 <div className='form-control'>
                     <input type="checkbox" id='check' value={this.state.check} onChange={this.handleCheckChange} required/>
                 </div>
-                <button type='submit' id='btn__submit'>Submit</button>
+                <button type='submit' id='btn__submit'>Send Message</button>
             </form>
             <Footer />
         </>

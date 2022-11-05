@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
 export default class Home extends Component {
@@ -32,7 +33,7 @@ export default class Home extends Component {
                             <a href="https://books.zuri.team/design-rules"  id="book__design">Design Books</a>
                         </button>
                         <button>
-                            <a href='contact' id='contact'>Contact</a> 
+                            <Link to="/contact">Contact Me</Link> 
                         </button>
                         <button>
                             <a href="https://books.zuri.team/design-rules"  id="slack">Muiz Afolarin Olaore</a>
