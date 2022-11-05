@@ -46,27 +46,27 @@ class ContactForm  extends Component {
     }
 
     handleSubmit = (event) => {
-        alert(`${this.state.firstname}`)
+        alert(` Thank you ${this.state.firstname}. Your response has been received`)
     }
   render() {
     return (
         <>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} id="contact_form">
                 <div className='form-control'>
                     <label>First Name:</label>
-                    <input type="text" id='first_name' value={this.state.firstname} onChange={this.handleFirstnameChange} required/>
+                    <input type="text" id='first_name' value={this.state.firstname} onChange={this.handleFirstnameChange} placeholder="Enter your first name" required/>
                 </div>
                 <div className='form-control'>
                     <label>Last Name:</label>
-                    <input type="text" id='last_name' value={this.state.lastname} onChange={this.handleLastnameChange} required/>
+                    <input type="text" id='last_name' value={this.state.lastname} onChange={this.handleLastnameChange} placeholder="Enter your last name" required/>
                 </div>
                 <div className='form-control'>
                     <label>Email:</label>
-                    <input type="email" id='email' value={this.state.email} onChange={this.handleEmailChange} required/>
+                    <input type="email" id='email' value={this.state.email} placeholder="yourname@email.com" onChange={this.handleEmailChange} required/>
                 </div>
                 <div className='form-control'>
                     <label>Message:</label>
-                    <textarea type="text" id='message' value={this.state.message} onChange={this.handleMessageChange} required></textarea>
+                    <textarea type="text" id='message' value={this.state.message} onChange={this.handleMessageChange}placeholder="Send me a message and I'll reply as soon as possible" required></textarea>
                 </div>
                 <div className='form-control'>
                     <input type="checkbox" id='check' value={this.state.check} onChange={this.handleCheckChange} required/>

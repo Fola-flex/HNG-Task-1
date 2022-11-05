@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/HNG-Task-1' element={<Home />}></Route>
-        <Route path="/contact" element={<ContactForm />}></Route>
+        <Route path="/HNG-Task-1/contact" element={<ContactForm />}></Route>
       </Routes>
     </Router>
   );
