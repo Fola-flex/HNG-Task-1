@@ -33,7 +33,7 @@ export default class Home extends Component {
                             <a href="https://books.zuri.team/design-rules"  id="book__design">Design Books</a>
                         </button>
                         <button>
-                            <Link to="/contact">Contact Me</Link> 
+                            <Link to="/contact" id='contact'>Contact Me</Link> 
                         </button>
                         <button>
                             <a href="https://books.zuri.team/design-rules"  id="slack">Muiz Afolarin Olaore</a>
