@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route path='/HNG-Task-1' element={<Home />}></Route>
         <Route path="/contact" element={<ContactForm />}></Route>
       </Routes>
     </Router>
