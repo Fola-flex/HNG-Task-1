@@ -47,6 +47,7 @@ class ContactForm  extends Component {
 
     handleSubmit = (event) => {
         alert(` Thank you ${this.state.firstname}. Your response has been received`)
+        event.preventDefault()
     }
   render() {
     return (
