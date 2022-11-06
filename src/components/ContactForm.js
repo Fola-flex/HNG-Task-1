@@ -52,6 +52,8 @@ class ContactForm  extends Component {
     return (
         <>
             <form onSubmit={this.handleSubmit} id="contact_form">
+                <h1>Contact Me</h1>
+                <p>Hi there, contact me to ask about anything you have in mind</p>
                 <div className='form-control'>
                     <label>First Name:</label>
                     <input type="text" id='first_name' value={this.state.firstname} onChange={this.handleFirstnameChange} placeholder="Enter your first name" required/>
