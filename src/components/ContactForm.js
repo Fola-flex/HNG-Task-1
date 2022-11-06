@@ -69,7 +69,8 @@ class ContactForm  extends Component {
                     <textarea type="text" id='message' value={this.state.message} onChange={this.handleMessageChange}placeholder="Send me a message and I'll reply as soon as possible" required></textarea>
                 </div>
                 <div className='form-control'>
-                    <input type="checkbox" id='check' value={this.state.check} onChange={this.handleCheckChange} required/>
+                    <input type="radio" id='check' value={this.state.check} onChange={this.handleCheckChange} required/>
+                    <label>You agree to providing your data to name who may contact you</label>
                 </div>
                 <button type='submit' id='btn__submit'>Send Message</button>
             </form>

@@ -83,7 +83,12 @@
 .form-control {
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.form-control:last-of-type {
+    flex-direction: row;
 }
 
 .form-control label {
@@ -92,6 +97,10 @@
     font-family: 500;
     font-size: 14px;
     line-height: 20px;
+}
+
+.form-control label:last-of-type {
+    margin-left: 10px;
 }
 
 .form-control input, .form-control textarea {
@@ -111,7 +120,7 @@
 .form-control input::placeholder, textarea::placeholder {
     font-family: Inter;
     color: #667085;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
 }
 
