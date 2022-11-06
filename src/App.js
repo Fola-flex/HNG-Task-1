@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Home';
 import ContactForm from './components/ContactForm';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/HNG-Task-1' element={<Home />}></Route>
+        <Route path='/' element={<Home />}></Route>
         <Route path="/contact" element={<ContactForm />}></Route>
       </Routes>
     </Router>
